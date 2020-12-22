@@ -80,7 +80,7 @@ if sid_json['api-server-version']=='1.7' or sid_json['api-server-version']=='1.6
          url = "https://" + mgmtserverip + "/web_api/show-logs" 
          query_object = {
            "new-query": {
-           "time-frame": "today",
+           "time-frame": "last-24-hours",
            "max-logs-per-request": "100",
            "top": { 
                     "field" : "sources",
