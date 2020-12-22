@@ -6,6 +6,8 @@ you have the ability to change the filter to match any query you can do via Smar
 
 See the API guide for more examples of what can be done - https://sc1.checkpoint.com/documents/latest/APIs/index.html#cli/show-logs~v1.7%20
 
+The login will be Read-Only into the SmartCenter or MDS.  
+
 The script will loop every 5 minutes and output the top sources with a count.  A file will also be updated with the JSON data.
 
 Example output from the script.
